@@ -49,7 +49,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.button12 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -269,29 +268,19 @@
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(117, 303);
+            this.button12.Location = new System.Drawing.Point(57, 339);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(30, 30);
+            this.button12.Size = new System.Drawing.Size(235, 30);
             this.button12.TabIndex = 21;
             this.button12.Text = "C";
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button12_Click);
-            // 
-            // button17
-            // 
-            this.button17.Location = new System.Drawing.Point(53, 346);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(253, 40);
-            this.button17.TabIndex = 22;
-            this.button17.Text = "button17";
-            this.button17.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(378, 392);
-            this.Controls.Add(this.button17);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -344,7 +333,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button17;
     }
 }
 
